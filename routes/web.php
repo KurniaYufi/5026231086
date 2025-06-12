@@ -6,6 +6,8 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\MinumanDBController;
+use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\PageCounterController;
 use Illuminate\Support\Facades\DB;
 
 // import java.io ;
@@ -82,3 +84,10 @@ Route::post('/minuman/update',[MinumanDBController::class, 'updateMinuman']);
 Route::get('/minuman/hapus/{id}', [MinumanDBController::class, 'hapusMinuman']);
 
 Route::get('/minuman/cari', [MinumanDBController::class, 'cari']);
+
+Route::get('/karyawan', [KaryawanDBController::class, 'indexKaryawan']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambahKaryawan']);
+Route::post('/karyawan/store', [KaryawanDBController::class, 'storeKaryawan']);
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapusKaryawan']);
+
+Route::get('/latihan1', [PageCounterController::class, 'index']);
