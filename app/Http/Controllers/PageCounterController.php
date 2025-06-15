@@ -14,3 +14,4 @@ class PageCounterController extends Controller
         return view('indexlatihan1', compact('jumlah'));
     }
 }
+//siap UAS

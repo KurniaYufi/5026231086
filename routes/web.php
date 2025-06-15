@@ -89,5 +89,5 @@ Route::get('/karyawan', [KaryawanDBController::class, 'indexKaryawan']);
 Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambahKaryawan']);
 Route::post('/karyawan/store', [KaryawanDBController::class, 'storeKaryawan']);
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapusKaryawan']);
-
+//siap UAS
 Route::get('/latihan1', [PageCounterController::class, 'index']);

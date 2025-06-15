@@ -87,7 +87,7 @@
                 <a class="nav-item nav-link" href="/minuman"><i class="fas fa-cocktail"></i> Tugas CRUD</a>
                 <a class="nav-item nav-link" href="#"><i class="fas fa-clipboard"></i> EAS</a>
                 <a class="nav-item nav-link" href="/latihan1"><i class="fas fa-pencil-alt"></i> Latihan 1</a>
-                <a class="nav-item nav-link" href="#"><i class="fas fa-pencil-ruler"></i> Latihan 2</a>
+                <a class="nav-item nav-link" href="/karyawan"><i class="fas fa-pencil-ruler"></i> Latihan 2</a>
                 <a class="nav-item nav-link" href="/karyawan"><i class="fas fa-user-tie"></i> Latihan 3</a>
             </div>
         </div>
