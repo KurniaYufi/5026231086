@@ -11,7 +11,7 @@
           <label for="cari" class="mr-2" style="font-size: 1.75rem; font-weight: 500;">Cari Data Minuman :</label>
           <input type="text" name="cari" id="cari" class="form-control" placeholder="Cari Minuman...">
         </div>
-        <button type="submit" class="btn btn-primary">Cari</button>
+        <button type="submit" class="ml-2 btn btn-primary">Cari</button>
       </form>
 
     <br />
@@ -22,7 +22,7 @@
             <th>Harga</th>
             <th>Ketersediaan</th>
             <th>Berat(kg)</th>
-            <th>Opsi</th>
+            <th class="ml-5">Opsi</th>
         </tr>
         @foreach ($minuman as $p)
             <tr>

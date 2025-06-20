@@ -8,6 +8,8 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\MinumanDBController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\nilaiController;
 use Illuminate\Support\Facades\DB;
 
 // import java.io ;
@@ -91,3 +93,10 @@ Route::post('/karyawan/store', [KaryawanDBController::class, 'storeKaryawan']);
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapusKaryawan']);
 //siap UAS
 Route::get('/latihan1', [PageCounterController::class, 'index']);
+//LatihanEas3
+Route::get('/LatihanEas3', [KategoriController::class, 'indexEas3']);
+Route::post('/LatihanEas3/hasil', [KategoriController::class, 'hasil']);
+//EAS
+Route::get('/eas', [nilaiController::class, 'indexNilai']);
+Route::get('/minuman/tambah', [nilaiController::class, 'tambahNilai']);
+Route::post('/minuman/store', [nilaiController::class, 'storeNilai']);

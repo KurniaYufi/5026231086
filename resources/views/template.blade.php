@@ -85,7 +85,7 @@
                 <a class="nav-item nav-link" href="/frontend"><i class="fas fa-code"></i> All Front End</a>
                 <a class="nav-item nav-link" href="/pegawai"><i class="fas fa-users"></i> Pegawai</a>
                 <a class="nav-item nav-link" href="/minuman"><i class="fas fa-cocktail"></i> Tugas CRUD</a>
-                <a class="nav-item nav-link" href="#"><i class="fas fa-clipboard"></i> EAS</a>
+                <a class="nav-item nav-link" href="/eas"><i class="fas fa-clipboard"></i> EAS</a>
                 <a class="nav-item nav-link" href="/latihan1"><i class="fas fa-pencil-alt"></i> Latihan 1</a>
                 <a class="nav-item nav-link" href="/karyawan"><i class="fas fa-pencil-ruler"></i> Latihan 2</a>
                 <a class="nav-item nav-link" href="/karyawan"><i class="fas fa-user-tie"></i> Latihan 3</a>
@@ -94,10 +94,8 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="content">
-        <div class="container-fluid">
+    <main class="m-4">
             @yield('content')
-        </div>
     </main>
 
     <footer>
